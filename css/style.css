@@ -189,4 +189,12 @@ footer{
     width: 100%;
     background-color: var(--bg-footer);
     color: var(--txt-footer);
+    padding: 0 12px 12px 12px;
+}
+footer .commercialInfo ul li, footer .socials p{
+    font-size: calc(var(--body-font-size) - 0.3rem);
+}
+footer p{
+    margin-top: 12px;
+    padding-bottom: 5px;
 }
