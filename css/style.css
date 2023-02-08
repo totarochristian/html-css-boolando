@@ -96,11 +96,11 @@ header{
     color: var(--txt-card);
     padding: 10px 5px;
 }
-.card .image img{
-    width: 100%;
-}
 .description{
     margin-top: -5px;
+}
+.card .image img{
+    width: 100%;
 }
 .card .description .name{
     font-size: calc(var(--body-font-size) + 0.1rem);
@@ -114,4 +114,17 @@ header{
 }
 .card .description .price .originalPrice{
     text-decoration: line-through;
+}
+.card .image img:nth-child(2){
+    display: block;
+}
+.card .image img:nth-child(2){
+    display: none;
+}
+.card:hover .image img:nth-child(1){
+    display: none;
+}
+.card:hover .image img:nth-child(2){
+    display: block;
+    margin-bottom: 5px;
 }
