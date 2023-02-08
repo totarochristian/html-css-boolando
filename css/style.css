@@ -99,6 +99,9 @@ header{
 .description{
     margin-top: -5px;
 }
+.card .image{
+    position: relative;
+}
 .card .image img{
     width: 100%;
 }
@@ -127,4 +130,28 @@ header{
 .card:hover .image img:nth-child(2){
     display: block;
     margin-bottom: 5px;
+}
+
+/*****************************************************************/
+/****************************** Card *****************************/
+/****************************** Info *****************************/
+/*****************************************************************/
+.info{
+    position: absolute;
+    bottom: 3.2rem;
+    left: 0;
+}
+.card:hover .info{
+    margin-bottom: -5px;
+}
+.priceDiscount, .tag{
+    padding: 4px 12px;
+}
+.priceDiscount{
+    background-color: var(--bg-priceDiscount);
+    color: var(--txt-priceDiscount);
+}
+.tag{
+    background-color: var(--bg-tag);
+    color: var(--txt-tag);
 }
