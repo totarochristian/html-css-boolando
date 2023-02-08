@@ -9,12 +9,14 @@
     --bg-tag: #008000;
     --bg-priceDiscount: #ff0000;
     --bg-heart: #ffffff;
+    --bg-footer: #1a1a1a;
     /* Text colors variables */
     --txt-header: #ffffff;
     --txt-card: #000000;
     --txt-tag: #ffffff;
     --txt-priceDiscount: #ffffff;
     --txt-heart: #000000;
+    --txt-footer: #ffffff;
     /* Size variables */
     --body-font-size: 1rem;
 }
@@ -73,7 +75,7 @@ main{
 /*****************************************************************/
 /**************************** a-links ****************************/
 /*****************************************************************/
-header ul li a{
+ul li a{
     text-decoration: none;
     color: var(--txt-header);
 }
@@ -178,4 +180,13 @@ header{
     position: absolute;
     top: 10px;
     right: 0;
+}
+
+/*****************************************************************/
+/***************************** Footer ****************************/
+/*****************************************************************/
+footer{
+    width: 100%;
+    background-color: var(--bg-footer);
+    color: var(--txt-footer);
 }
