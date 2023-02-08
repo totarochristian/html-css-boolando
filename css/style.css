@@ -5,7 +5,7 @@
     /* Background variables */
     --bg-header: #ff6900;
     --bg-body: #ffffff;
-    --bg-card: #e8e8e8;
+    --bg-card: #ffffff;
     --bg-tag: #008000;
     --bg-priceDiscount: #ff0000;
     --bg-hearth: #ffffff;
@@ -44,6 +44,9 @@ body{
 .mainContent ul{
     list-style: none;
 }
+.txt-bold{
+    font-weight: 700;
+}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -72,7 +75,6 @@ header ul li a{
     color: var(--txt-header);
 }
 
-
 /*****************************************************************/
 /***************************** Header ****************************/
 /*****************************************************************/
@@ -90,13 +92,26 @@ header{
 .card{
     width: calc(100% / 3);
     min-width: 280px;
-    background-color: black;
+    background-color: var(--bg-card);
+    color: var(--txt-card);
     padding: 10px 5px;
 }
-.image img{
-    background-color: yellow;
+.card .image img{
     width: 100%;
 }
 .description{
-    background-color: blue;
+    margin-top: -5px;
+}
+.card .description .name{
+    font-size: calc(var(--body-font-size) + 0.1rem);
+    text-transform: uppercase;
+}
+.card .description .brand, .card .description .price{
+    font-size: calc(var(--body-font-size) - 0.1rem);
+}
+.card .description .price .currentPrice{
+    color: var(--bg-priceDiscount);
+}
+.card .description .price .originalPrice{
+    text-decoration: line-through;
 }
