@@ -91,6 +91,7 @@ header{
     background-color: var(--bg-header);
     position: fixed;
     z-index: 1000;
+    box-shadow: 0px 3px 5px #888888;
 }
 .logo img{
     width: 150px;
