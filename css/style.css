@@ -6,12 +6,12 @@
     --bg-body: #ffffff;
     --bg-card: #e8e8e8;
     --bg-tag: #008000;
-    --bg-price: #ff0000;
+    --bg-priceDiscount: #ff0000;
     --bg-hearth: #ffffff;
     --txt-header: #ffffff;
     --txt-card: #000000;
     --txt-tag: #ffffff;
-    --txt-price: #ffffff;
+    --txt-priceDiscount: #ffffff;
     --txt-hearth: #000000;
 }
 
@@ -76,4 +76,21 @@ header{
 }
 .logo img{
     width: 150px;
+}
+
+/*****************************************************************/
+/****************************** Card *****************************/
+/*****************************************************************/
+.card{
+    width: calc(100% / 3);
+    min-width: 280px;
+    background-color: black;
+    padding: 10px 5px;
+}
+.image img{
+    background-color: yellow;
+    width: 100%;
+}
+.description{
+    background-color: blue;
 }
