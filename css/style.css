@@ -33,7 +33,7 @@ body{
 .mainContent{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0.5rem;
+    padding: 0.7rem;
 }
 .mainContent ul{
     list-style: none;
@@ -75,5 +75,5 @@ header{
     background-color: var(--bg-header);
 }
 .logo img{
-    width: 200px;
+    width: 150px;
 }
