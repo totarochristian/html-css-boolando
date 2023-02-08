@@ -82,6 +82,13 @@ ul li a{
     text-decoration: none;
     color: var(--txt-header);
 }
+header .mainContent .categories ul li{
+    border-bottom: 2px solid transparent;
+}
+header .mainContent .categories ul li:hover{
+    border-bottom: 2px solid;
+    color: var(--txt-header);
+}
 
 /*****************************************************************/
 /***************************** Header ****************************/
