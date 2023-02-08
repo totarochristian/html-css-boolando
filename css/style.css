@@ -2,17 +2,21 @@
 /**************************** Variables definition ****************************/
 /******************************************************************************/
 :root{
+    /* Background variables */
     --bg-header: #ff6900;
     --bg-body: #ffffff;
     --bg-card: #e8e8e8;
     --bg-tag: #008000;
     --bg-priceDiscount: #ff0000;
     --bg-hearth: #ffffff;
+    /* Text colors variables */
     --txt-header: #ffffff;
     --txt-card: #000000;
     --txt-tag: #ffffff;
     --txt-priceDiscount: #ffffff;
     --txt-hearth: #000000;
+    /* Size variables */
+    --body-font-size: 1rem;
 }
 
 /***************************************************************/
@@ -29,6 +33,8 @@
 /*****************************************************************/
 body{
     background-color: var(--bg-body);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: var(--body-font-size);
 }
 .mainContent{
     max-width: 1200px;
