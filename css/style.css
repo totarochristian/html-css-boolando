@@ -122,6 +122,9 @@ header{
 .card .description .brand, .card .description .price{
     font-size: calc(var(--body-font-size) - 0.1rem);
 }
+.card .brand{
+    text-transform: capitalize;
+}
 .card .description .price .currentPrice{
     color: var(--bg-priceDiscount);
 }
