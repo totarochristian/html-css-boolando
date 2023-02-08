@@ -73,3 +73,6 @@ header{
     width: 100%;
     background-color: var(--bg-header);
 }
+.logo img{
+    width: 200px;
+}
